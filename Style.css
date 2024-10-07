@@ -1,0 +1,148 @@
+body{
+    background: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 10px 80px blanchedalmond;
+}
+
+.box .left{
+    position: relative;
+    background: rgb(83, 83, 83);
+    padding: 40px;
+}
+
+.left-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.left-text .left-img{
+    align-self: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.left-text h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.left-text h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.left-text .left-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact{
+    padding-top: 20px;
+}
+
+.title{
+    color: rgb(255, 241, 195);
+    letter-spacing: 1;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li span{
+    color: white;
+    font-weight: 300;
+}
+
+.education ul li{
+    color: white;
+}
+
+.box .right{
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about :last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .container .Experience{
+    min-width: 150px;
+}
+
+.about .container .text h4{
+    text-transform: uppercase;
+    color: rgb(97, 97, 91);
+    font-size: 30px;
+}
